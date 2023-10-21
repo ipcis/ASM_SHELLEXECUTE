@@ -5,6 +5,9 @@ section .data
     ; Definiere eine NULL-terminierte Zeichenfolge, die die Aktion (öffnen) enthält
     verb db 'open',0
 
+    ; Definiere das Symbol SW_SHOWNORMAL
+    SW_SHOWNORMAL equ 1
+
 section .text
 global _start
 
