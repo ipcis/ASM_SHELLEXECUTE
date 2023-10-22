@@ -28,3 +28,11 @@ https://www.accidentalrebel.com/converting-a-malware-dropper-to-x64-assembly.htm
 https://tria.ge/231022-rstkbabd98/static1
 https://www.virustotal.com/gui/file/0aef5ff97e743b894b9cac0ab917c8f3d25a7b9065b08612517c534d6efd5e70/detection
 ```
+
+run Notepad - string av evasion
+```
+nasm -f win64 runNotepad.asm -o runNotepad.obj
+link runNotepad.obj /subsystem:console /out:runNotepad.exe msvcrt.lib shell32.lib user32.lib
+
+https://www.accidentalrebel.com/string-av-evasion-in-x64-assembly-part-2.html
+```
