@@ -42,6 +42,6 @@ helloworld
 nasm -f win64 helloworld.asm -o helloworld.obj
 link helloworld.obj /subsystem:console /out:helloworld.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 
-https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=msvc-170&viewFallbackFrom=vs-2017
+https://sonictk.github.io/asm_tutorial/
 https://stackoverflow.com/questions/64413414/unresolved-external-symbol-printf-in-windows-x64-assembly-programming-with-nasm
 ```
