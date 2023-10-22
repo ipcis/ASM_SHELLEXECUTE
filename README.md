@@ -23,5 +23,8 @@ dropper.asm
 ```
 nasm -f win64 dropper.asm -o dropper.obj
 link dropper.obj /subsystem:console /out:dropper.exe kernel32.lib msvcrt.lib legacy_stdio_definitions.lib
+
 https://www.accidentalrebel.com/converting-a-malware-dropper-to-x64-assembly.html
+https://tria.ge/231022-rstkbabd98/static1
+https://www.virustotal.com/gui/file/0aef5ff97e743b894b9cac0ab917c8f3d25a7b9065b08612517c534d6efd5e70/detection
 ```
