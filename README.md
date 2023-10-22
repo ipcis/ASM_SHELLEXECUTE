@@ -49,7 +49,7 @@ https://sonictk.github.io/asm_tutorial/
 https://stackoverflow.com/questions/64413414/unresolved-external-symbol-printf-in-windows-x64-assembly-programming-with-nasm
 ```
 
-default shellexecute Notepad
+default shellexecute notepad
 ```
 nasm -f win64 openNotepad.asm -o openNotepad.obj
 link openNotepad.obj /subsystem:console /out:openNotepad.exe msvcrt.lib shell32.lib user32.lib
