@@ -7,11 +7,7 @@ VS2019: x86_x64 cross tools command vs2019
 ```
 
 
-```
-nasm -f win64 your_file.asm -o your_output.obj
-link /subsystem:windows /entry:_start your_output.obj /out:your_program.exe
 
-```
 
 hello.asm - console out
 ```
